@@ -1,3 +1,4 @@
+
 # Shirokane Family Website 💗
 
 ## Description
@@ -12,6 +13,16 @@ npm run dev
 
 Then open the local URL shown in your terminal.
 
+## Dependencies
+- [Vite](https://vite.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Author
+- [Shirokane Family](https://github.com/shirokanefamily)
+- [Mahiru Dev](https://github.com/mahiru-chanVN)
+
+## Contributors
+- [Sopia Shirokane](https://github.com/SopiaShirokane)
+
 ## Current Status
 🟢 **Active**
-"""

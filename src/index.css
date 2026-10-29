@@ -17,6 +17,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  position: relative;
+  isolation: isolate;
+}
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
@@ -35,6 +40,38 @@ svg {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.8;
+}
+
+main::before {
+  position: fixed;
+  z-index: -2;
+  inset: -28px;
+  background: url('./assets/background.jpg') center center / cover no-repeat;
+  content: '';
+  filter: blur(0);
+  transform: scale(1);
+  transition: filter .65s ease, transform .8s cubic-bezier(.2, .8, .2, 1);
+  will-change: filter, transform;
+}
+
+main::after {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(180deg, rgb(217 241 255 / 8%), rgb(19 59 112 / 12%));
+  content: '';
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity .55s ease;
+}
+
+.is-scrolled::before {
+  filter: blur(18px);
+  transform: scale(1.06);
+}
+
+.is-scrolled::after {
+  opacity: .72;
 }
 
 .hero {
@@ -403,10 +440,12 @@ svg {
   overflow: hidden;
   padding: 38px max(24px, calc((100vw - 1180px) / 2)) 140px;
   background:
-    radial-gradient(circle at 8% 18%, #e8f6ff 0 4%, transparent 4.2%),
-    radial-gradient(circle at 92% 46%, #fce9f2 0 5%, transparent 5.2%),
-    #fcfdff;
+    radial-gradient(circle at 8% 18%, rgb(232 246 255 / 85%) 0 4%, transparent 4.2%),
+    radial-gradient(circle at 92% 46%, rgb(252 233 242 / 85%) 0 5%, transparent 5.2%),
+    rgb(252 253 255 / 82%);
+  backdrop-filter: saturate(112%);
 }
+
 
 .family::before {
   position: absolute;

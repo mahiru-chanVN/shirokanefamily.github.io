@@ -18,7 +18,7 @@ const sisters: Sister[] = [
     bio: 'Former Sister, she is multimode player and strong at taiko. Her goal is get 7kpp at all mode but something bad happened so she decided to become a mapper, now she have 1 ranked beatmap at mania 6K',
     color: '#7dd3a8',
     accent: '#d8efff',
-    avatar: './src/assets/shoka.png'
+    avatar: './assets/shoka.png'
   },
 
   {
@@ -28,7 +28,7 @@ const sisters: Sister[] = [
     bio: ' 1st brother, he`s a 4k mania player at 9th dan, average rice farmer but doesn`t actually play the game that much, touched std a bit and that`s it.',
     color: '#8dc8ed',
     accent: '#d8efff',
-    avatar: './src/assets/shizu.png'
+    avatar: './assets/shizu.png'
   },
 
   {
@@ -38,7 +38,7 @@ const sisters: Sister[] = [
     bio: '2nd sister, she`s a decent standard player, also really good at FPS games, joined after Shizu Shirokane.',
     color: '#ef918c',
     accent: '#ffe0dd',
-    avatar: './src/assets/mita.jpg'
+    avatar: './assets/mita.jpg'
   },
 
   {
@@ -48,7 +48,7 @@ const sisters: Sister[] = [
     bio: 'The 3rd sister, slightly worse at std than Mita but still improving, played a little bit of other gamemodes, joined after Mita Shirokane.',
     color: '#8dc8ed',
     accent: '#d8efff',
-    avatar: './src/assets/yuuki.jpg'
+    avatar: './assets/yuuki.jpg'
   },
 
   {
@@ -58,7 +58,7 @@ const sisters: Sister[] = [
     bio:'The 4th brother, the absolute strongest mania player of the family with over 10kpp at both 4 and 7k. Joined after Yuuki Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
-    avatar: './src/assets/fuyu.png'
+    avatar: './assets/fuyu.png'
   },
 
   {
@@ -68,7 +68,7 @@ const sisters: Sister[] = [
     bio:'The 5th sister, std main with a little bit of mania. Join after Fuyu Shirokane (wtf she won 1 year os)',
     color: '#b7a7e8',
     accent: '#e9e3ff',
-    avatar: './src/assets/ayoko.png'
+    avatar: './assets/ayoko.png'
   },
 
   {
@@ -78,7 +78,7 @@ const sisters: Sister[] = [
     bio:' The 6th sister. The best std player in the family, spent some time playing mania and ctb too, peaked a while ago and slowly declining right now tho, joined after Ayoko Shirokane.',
     color: '#681993',
     accent: '#e5dffb',
-    avatar: './src/assets/sopia.png'
+    avatar: './assets/sopia.png'
   },
 
   {
@@ -88,7 +88,7 @@ const sisters: Sister[] = [
     bio:'The 7th brother. A taiko main with over 8kpp, also playing tournaments. Decent skillset spread over other gamemodes too. Joined after Sopia Shirokane.',
     color: '#9589cf',
     accent: '#e5dffb',
-    avatar: './src/assets/kuru.png'
+    avatar: './assets/kuru.png'
   },
 
   {
@@ -98,7 +98,7 @@ const sisters: Sister[] = [
     bio: '8th brother. A std player (yes thats it about him we dont even see him that often actually). Joined after Kuru Shirokane.',
     color: '#79b8e3',
     accent: '#dceeff',
-    avatar: './src/assets/ahiru.png'
+    avatar: './assets/ahiru.png'
   },
 
   {
@@ -108,7 +108,7 @@ const sisters: Sister[] = [
     bio: '9th sister. Std main, with a little bit of mania and ctb. Joined after Ahiru Shirokane.',
     color: '#b7a7e8',
     accent: '#e9e3ff',
-    avatar: './src/assets/huna.png'
+    avatar: './assets/huna.png'
   },
 
   {
@@ -118,7 +118,7 @@ const sisters: Sister[] = [
     bio: '10th sister. Strong taiko main, also has around 1kpp on other modes (she beat an insane demon in gd and is going for her first extreme in gd btw). Joined after Huna Shirokane.',
     color: '#ffd9e5',
     accent: '#fff0ca',
-    avatar: './src/assets/mofu.png'
+    avatar: './assets/mofu.png'
   },
 
   {
@@ -128,7 +128,7 @@ const sisters: Sister[] = [
     bio: '11th sister. Another 4K mania masher. Main rice and jack is best skill, join after Mofu Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
-    avatar: './src/assets/izumi.png'
+    avatar: './assets/izumi.png'
   },
 
   {
@@ -138,7 +138,7 @@ const sisters: Sister[] = [
     bio: '11th sister. Best ctb player of the family (almost 3 digits) with some mania. Joined after Mofu Shirokane.',
     color: '#72bda5',
     accent: '#d9f3eb',
-    avatar: './src/assets/izuna.png'
+    avatar: './assets/izuna.png'
   },
 
   {
@@ -148,7 +148,7 @@ const sisters: Sister[] = [
     bio: '12th sister. Decent std player, improving in mania. Joined after Izuna Shirokane.',
     color: '#7fc7d8',
     accent: '#d8f4fa',
-    avatar: './src/assets/sora.png'
+    avatar: './assets/sora.png'
   },
 
 ]
@@ -246,7 +246,7 @@ function App() {
           <div className="hero__avatar-wrap">
             <div className="team-avatar-placeholder team-avatar-placeholder--filled">
               <img 
-                  src = "/src/assets/team.png" />
+                  src = "./assets/team.png" />
                <span>Team avatar</span>
             </div>
           </div>

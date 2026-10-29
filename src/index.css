@@ -46,7 +46,7 @@ main::before {
   position: fixed;
   z-index: -2;
   inset: -28px;
-  background: url('./assets/background.jpg') center center / cover no-repeat;
+  background: url('https://i.postimg.cc/7ZTBgS8g/background.jpg') center center / cover no-repeat;
   content: '';
   filter: blur(0);
   transform: scale(1);
